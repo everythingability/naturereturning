@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'clockFont';
+  src: url('digital-7.ttf')  format('truetype');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: black;
+  font-family: Helvetica, sans-serif;
+}
+
+
+
+
+#wrapper{
+  margin-top:100px;
+  display: block;
+  width:640px;
+  height:640px;  
+  background: black;
+  text-align: center;
+  margin: auto;
+  height: 480px;
+
+}
+
+#webcam{
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+#godzilla{
+  position: inherit;
+  top: 0px;
+  left: 0px;
+  z-index: 50;
+}
+#text a{
+  display: block;
+  margin-top: 50px;
+  color: white
+}
+
+#clock{
+  margin-top: -80px;
+  display: block;
+  font-size:80px;
+  color: orange;
+  font-family: clockFont, sans-serif;
+  z-index: 100;
+
+  
+}
+
+
+
+  
+
+
+
+
+
+
